@@ -36,7 +36,7 @@ Once the task converges, the engine synthesizes a single, clean, verified script
 
 ## How to Use It
 
-Antrieb is available as an MCP server, meaning it plugs directly into any MCP-compatible client like Claude Desktop, Cursor, or Continue. You describe what you want in natural language, and the engine handles everything: environment design, code generation, execution, convergence. Alternatively, you can submit code generated with another LLM and ask the engine to deploy it and return findings.
+Antrieb is available as an MCP server, meaning it plugs directly into any MCP-compatible client like Claude Desktop, Cursor, or Continue. You describe what you want in natural language, and the engine handles everything: environment design, code generation, execution, convergence. Alternatively, you can submit code generated with another LLM and ask the engine to deploy it and return findings. The simplest way to try Antrieb is simply to log into Grafna. And within it, you can try examples selected from a curated set just by clicking. 
 
 Every run is fully observable through Grafana. You can see logs, failure analysis, evaluation results, number of iterations, execution timings, which recovery path the engine chose, and why. Nothing is a black box. If a task took three rounds to converge, you can see exactly what failed in round one, what the LLM tried differently in round two, and what finally worked in round three.
 
@@ -58,4 +58,4 @@ Antrieb collapses that loop. It spins up real machines, runs the code, tears eve
 
 We're still early. Some tasks break it. Some edge cases we haven't seen yet. Good. Try it. Break it. Tell us where it fails.
 
-[Link to Grafana login]
+[https://dash.antrieb.sh]

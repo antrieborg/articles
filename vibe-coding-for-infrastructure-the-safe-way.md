@@ -58,4 +58,4 @@ Antrieb collapses that loop. It spins up real machines, runs the code, tears eve
 
 We're still early. Some tasks break it. Some edge cases we haven't seen yet. Good. Try it. Break it. Tell us where it fails.
 
-[https://dash.antrieb.sh]
+https://dash.antrieb.sh

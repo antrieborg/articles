@@ -44,7 +44,10 @@ Once the task converges, the engine synthesizes a single clean script and runs i
 
 Antrieb is available as an MCP server, meaning it plugs directly into any MCP-compatible client like Claude Desktop, Cursor, or Continue. You describe what you want in natural language, and the engine handles the rest: environment design, code generation, execution, convergence. You can also submit code you generated with another LLM and ask the engine to deploy it and return findings. Yet, the simplest way to try Antrieb is to log in to [Grafana](https://dash.antrieb.sh) and there you can try examples selected from a curated set just by clicking.
 
+<img width="1913" height="862" alt="Screenshot 2026-02-24 at 16-39-06 Set up HAProxy load balancing to 2 nginx backend n - Runs - Dashboards - Grafana" src="https://github.com/user-attachments/assets/6a1dc533-bf58-4d50-9ff5-52640c838af9" />
+
 Every run is fully observable through Grafana. You can see logs, failure analysis, evaluation results, number of iterations, execution timings, which recovery path the engine chose, and why. Nothing is a black box. If a task took three rounds to converge, you can see exactly what failed in round one, what the LLM tried differently in round two, and what finally worked in round three.
+
 
 ## Try It. Break It.
 
